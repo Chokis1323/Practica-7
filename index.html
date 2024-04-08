@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http‐equiv="refresh" content="20;URL=./2PantillaBasica.htm" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divisones Sem&aacute;ticas</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="css/estiloBasico.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+  
+  <div id="agrupar">
+
+  <header id="cabecera">
+      <h1>Mi vida</h1>
+  </header>
+
+  <nav id="menu">
+    <ul>
+    <li><a href="#LINK1">principal</a></li>
+    <li class="dropdown">
+      <a  class="dropbtn">Media</a>
+      <div class="dropdown-content">
+        <a href="#LINK2">Fotos</a>
+        <a href="#LINK3">Videos</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a  class="dropbtn">Logros</a>
+      <div class="dropdown-content">
+        <a href="#LINK2">Reconocimiento 1</a>
+        <a href="#LINK3">Reconocimiento 2</a>
+      </div>
+    </li>
+    <li><a href="#LINK5">Contactos</a></li>
+    </ul>
+  </nav>
+
+  <section id="seccion">
+      <article id="LINK1"><!--Primer articulo-->
+        <header>
+              <hgroup>
+                  <h1>Mi Curriculum </h1>
+                  <h4>Nombre: Jesus Raymundo Rodriguez Pulido</h4>
+              </hgroup>
+              <time datetime="2011-12-10" pubdate>
+                    publicado 05-03-2024
+              </time>
+                <h5>Nombre: Jesus Raymundo Rodriguez Pulido</h5>
+                <h5>Fecha de nacimiento: 31 de Octubre del 2002</h5>
+                <h5>Lugar de nacimiento: Orizaba, Veracruz</h5>
+        </header>
+          
+          <figure>
+              <video src="video/presentacion.mp4" width="20%" height="20%" controls></video>
+
+                <figcaption>
+                    
+                </figcaption>
+          </figure>
+
+          <footer>
+              <p>comentarios (0)</p>
+          </footer>
+      </article><!-- Fin Primer articulo-->
+
+      <article ><!-- Segundo articulo-->
+          <header id="titulo">
+                <h1>Instituto Tecnologico de Orizaba</h1>
+                <h4>Informacion:</h4>
+            <time datetime="2011-12-15" pubdate>
+                publicado 04-03-2024
+            </time>
+         </header>
+         <figure>
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.682682014014!2d-97.0976826850979!3d18.85268298722161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0f3e8e8e8e8e%3A0x3e8e8e8e8e8e8e8e!2sInstituto%20Tecnol%C3%B3gico%20de%20Orizaba!5e0!3m2!1sen!2smx!4v1646481234567!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          
+          <figcaption>
+                   Ubicacion del Instituto Tecnologico De Orizaba
+               </figcaption>
+         </figure>
+         <footer>
+            <p>comentarios (0)</p>
+          </footer>
+    </article> <!-- Fin Segundo articulo-->
+
+    <article id="LINK2"><!-- Segundo articulo-->
+      <header>
+        <hgroup>
+          <div>
+            <h1>Fotos</h1>
+          </div>
+        </hgroup>
+        <img src="img/img1.jpg" alt="" >
+        <img src="img/img2.jpg" alt="">
+        <img src="img/img4.jpg" alt="">
+        <img src="img/img5.jpg" alt="">
+        <img src="img/img6.jpg" alt="">
+        <time datetime="2011-12-15" pubdate>
+            publicado 04-03-2024
+        </time>
+     </header>
+     <figure>
+          <figcaption>
+            <h4>fotografias del presentador</h4>
+           </figcaption>
+     </figure>
+     <footer>
+        <p>comentarios (0)</p>
+      </footer>
+</article> <!-- Fin Segundo articulo-->
+
+<article id="LINK3"><!-- Segundo articulo-->
+          <header>
+            <hgroup>
+              <div>
+                <h1>Videos</h1>
+              </div>
+            </hgroup>
+            <center>
+            <video src="video/presentacion.mp4" controls width="40%" height="40%"></video>
+          </center>
+            <time datetime="2011-12-15" pubdate>
+                publicado 04-03-2024
+            </time>
+         </header>
+         <figure>
+                   <figcaption>
+                <h4>Video de presentacion</h4>
+               </figcaption>
+         </figure>
+         <footer>
+            <p>comentarios (0)</p>
+          </footer>
+    </article> <!-- Fin Segundo articulo-->
+
+    <article id="LINK4"><!-- Segundo articulo-->
+      <header>
+        <hgroup>
+          <div>
+            <h1>Contactos</h1>
+          </div>
+            
+        </hgroup>
+        <time datetime="2011-12-15" pubdate>
+            publicado 04-03-2024
+        </time>
+     </header>
+
+     <img src="" alt="">
+     <figure>
+            <figcaption>
+               Ubicacion del Instituto Tecnologico De Orizaba
+           </figcaption>
+     </figure>
+     <footer>
+        <p>comentarios (0)</p>
+      </footer>
+</article> <!-- Fin Segundo articulo-->
+
+</section> <!--Fin de section seccion-->
+
+  <aside id="columna"> <!-- aside -->
+      <blockquote>Redes Sociales</blockquote>
+      <a href="https://web.facebook.com/jesusraymundo.rodriguezpulido">
+       <figure>
+         <img src="img/facebook.png" alt="facebook" >
+         <h2>Jesus Raymundo</h2>
+       </figure>
+     </a>
+
+     <a href="https://www.instagram.com/_rodriguezp13/">
+        <figure>
+          <img src="img/instagram.png" alt="instagram">
+          <h2>_rodriguezp13</h2>
+        </figure>
+      </a>
+  </aside> <!-- Fin aside -->
+
+  <footer id="pie">
+      Derechos Reservados &copy; 2010-2011
+      <address>
+          <a href="http://www.itorizaba.edu.mx">ITO</a>
+      </address>
+  </footer>
+
+</div> <!--fin div agrupar-->
+
+<a href="#LINK1" class="direccion"><i class='bx bx-up-arrow-alt'></i></a>
+</body>
+
+</html>
